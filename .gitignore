@@ -1,0 +1,14 @@
+# compiled site
+site/
+
+# Build script
+build.bat
+
+# SVN
+.svn/
+
+# OSX
+.DS_Store
+
+# Backup files
+*~
