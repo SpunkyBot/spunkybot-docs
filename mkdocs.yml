@@ -1,0 +1,31 @@
+# Project information
+site_name: Spunky Bot
+site_url: https://docs.spunkybot.de
+site_description: Multi-platform administration and RCON tool for Urban Terror
+site_author: Alexander Kress
+
+# Copyright
+copyright: 'Copyright &copy; 2020 Alexander Kress'
+
+# Repository
+repo_url: https://github.com/SpunkyBot/spunkybot-docs
+
+# Theme
+theme:
+    name: readthedocs
+    language: en
+
+# https://www.mkdocs.org/user-guide/configuration/#use_directory_urls
+use_directory_urls: false
+
+# Content
+nav:
+    - index.md
+
+# Extensions
+markdown_extensions:
+    - toc:
+        permalink: '#'
+    - admonition
+extra_css:
+    - 'css/extra.css'
