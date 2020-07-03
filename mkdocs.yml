@@ -9,6 +9,7 @@ copyright: 'Copyright &copy; 2020 Alexander Kress'
 
 # Repository
 repo_url: https://github.com/SpunkyBot/spunkybot-docs
+edit_uri: blob/main/docs/
 
 # Theme
 theme:
