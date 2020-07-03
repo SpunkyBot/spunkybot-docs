@@ -25,9 +25,8 @@ jobs:
       - name: Build docs
         run: |
           mkdocs build --clean --strict
-          zip -r docs.zip docs/
 
       - name: Upload artifact
         uses: actions/upload-artifact@v2
         with:
-          path: docs.zip
+          path: site
