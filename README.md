@@ -9,5 +9,5 @@ Spunky Bot is a free game server administration bot and RCON tool for Urban Terr
 If you want to know more, this is a list of selected starting points:
 
 * Introduction to [Spunky Bot](https://spunkybot.de)
-* The full list of [commands](https://github.com/SpunkyBot/spunkybot/blob/master/doc/Commands.md)
+* The full list of [commands](https://spunkybot.de/docs/commands)
 * There is much more inside the [official documentation](https://docs.spunkybot.de)
