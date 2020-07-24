@@ -10,7 +10,7 @@
 
 /* Side scroll */
 .wy-side-scroll {
-    width: 320px;
+    width: 300px;
     position: relative;
     overflow-x: hidden;
     overflow-y: scroll;
