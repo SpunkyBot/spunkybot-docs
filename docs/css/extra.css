@@ -2,7 +2,30 @@
 .subnav .toctree-l3 { display: none }
 
 /* Color sidebar menu section */
-.wy-menu-vertical span.caption-text { color: #3a7ca8; font-weight: bold; text-transform: uppercase; }
+.wy-menu-vertical span.caption-text {
+    color: #3a7ca8;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Side scroll */
+.wy-side-scroll {
+    width: 320px;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+@media screen and (min-width: 1100px) {
+.wy-nav-content {
+    margin: 0;
+    background: #fcfcfc;
+}
+.wy-nav-content-wrap {
+    background: rgba(0,0,0,0.05);
+}
+}
 
 /* Code background color */
 pre code, pre code.hljs, .codehilite { background: #f6f5fe; }
@@ -24,8 +47,7 @@ form .search-query { padding: 6px 24px; }
 }
 
 /* Grey colored Example */
-.admonition.example
-{
+.admonition.example {
     background: #eee;
     padding: 12px;
     line-height: 24px;
@@ -35,8 +57,7 @@ form .search-query { padding: 6px 24px; }
 .admonition.example p:last-child { margin-bottom: 0px; }
 
 /* Mint colored Info */
-.admonition.info
-{
+.admonition.info {
     background: #f0fdff;
     padding: 12px;
     line-height: 24px;
