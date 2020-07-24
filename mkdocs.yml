@@ -15,13 +15,31 @@ edit_uri: blob/main/docs/
 theme:
     name: readthedocs
     language: en
+    custom_dir: theme/
 
 # https://www.mkdocs.org/user-guide/configuration/#use_directory_urls
 use_directory_urls: false
 
 # Content
 nav:
-    - index.md
+- Getting Started:
+    - Features: getting-started/features.md
+    - Installation Guide: getting-started/installation.md
+    - Configuration: getting-started/configuration.md
+    - Bot Settings: getting-started/settings.md
+- User Guide:
+    - User Roles and Groups: user-guide/user-roles-groups.md
+    - Bot Commands: user-guide/commands.md
+    - Player Identification: user-guide/identification.md
+    - Duration Syntax: user-guide/duration.md
+    - Frequently Asked Questions: user-guide/faq.md
+- Community:
+    - Reporting Bugs and Requesting Features: community/report-bugs-features.md
+    - Contributing Guidelines: community/contributing.md
+    - Checksum and Signature Verification: community/checksum-verification.md
+    - Releases: community/releases.md
+    - License: community/license.md
+    - Code of Conduct: community/code-of-conduct.md
 
 # Extensions
 markdown_extensions:
