@@ -44,6 +44,18 @@ $ sudo apt-get install spunkybot
 !!! tip "Hint"
     For more details, please check: [https://apt.spunkybot.de](https://apt.spunkybot.de)
 
+## Ubuntu PPA
+
+It is also possible to install Spunky Bot via our Ubuntu PPA (Personal Package Archive):
+
+```bash
+sudo add-apt-repository ppa:alexanderkress/spunkybot
+sudo apt-get update
+sudo apt-get install spunkybot
+```
+
+That’s it!
+
 ## Python and source tarball
 
 If you have pip installed, the easiest way of getting Spunky Bot is to use:
