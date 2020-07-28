@@ -1,5 +1,5 @@
 /* Do not display h2 element in navbar */
-.subnav .toctree-l3 { display: none }
+.subnav .toctree-l2 { display: none; }
 
 /* Color sidebar menu section */
 .wy-menu-vertical span.caption-text {
@@ -7,6 +7,9 @@
     font-weight: bold;
     text-transform: uppercase;
 }
+.wy-menu-vertical p.caption { margin-bottom: 0; }
+
+.wy-menu-vertical ul { margin-bottom: 1.5em; }
 
 /* Side scroll */
 .wy-side-scroll {
@@ -22,9 +25,7 @@
     margin: 0;
     background: #fcfcfc;
 }
-.wy-nav-content-wrap {
-    background: rgba(0,0,0,0.05);
-}
+.wy-nav-content-wrap { background: rgba(0,0,0,0.05); }
 }
 
 /* Code background color */
