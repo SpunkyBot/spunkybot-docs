@@ -14,10 +14,10 @@ Stop Spunky Bot and delete the database file `data.sqlite`. Then make sure no on
 
 !!! tip
     Use the following sequence of commands to delete the database file:
+    `$ sudo /etc/init.d/spunkybot stop`
+    `$ sudo rm /opt/spunkybot/data.sqlite`
+    `$ sudo /etc/init.d/spunkybot start`
 
-        $ sudo /etc/init.d/spunkybot stop
-        $ sudo rm /opt/spunkybot/data.sqlite
-        $ sudo /etc/init.d/spunkybot start
 
 If you do not want to delete your database file, you can remove the user from the _Head Admin_ group by editing the database. To do this, you need a tool to connect to your database.
 
@@ -60,5 +60,5 @@ Spunky Bot runs perfectly on Windows 64-bit operating systems.
 Yes, you can run many bots on the same machine, as long as you separate them in different folders.
 
 !!! tip "Hint"
-    - Bot #1 with home folder: /opt/spunkybot1/
-    - Bot #2 with home folder: /opt/spunkybot2/
+    Bot #1 with home folder: /opt/spunkybot1/
+    Bot #2 with home folder: /opt/spunkybot2/
