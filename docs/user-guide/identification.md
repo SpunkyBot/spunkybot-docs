@@ -13,12 +13,14 @@ The simplest player identifier is the player name. You can use any part of the p
     You can use the `!find` command to show which connected players match a given name.
 
 ## Client ID
+
 The client ID is the number assigned to the player by the game server. The client ID only works for the current game session. Use the command `!list` to display a list of the client IDs of the players. If a player name is too difficult to enter, or there are more than one player with similar names, you can pick them out using the client ID.
 
 !!! example
     `!kick 4 tk` to kick a player connected on game slot number 4.
 
 ## Database ID
+
 The database ID is the unique identification of the player within the database. It is prefixed with an ”@” character. This ID is displayed with the `!leveltest` and `!lookup` command. With this ID you can take actions against a player even if that player is not connected.
 
 !!! example
