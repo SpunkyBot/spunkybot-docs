@@ -11,11 +11,11 @@ You can help us in different ways:
 
 * Open an [issue](https://github.com/SpunkyBot/spunkybot/issues) with suggestions for improvements
 * Fork this repository and submit a pull request:
-  * Click the Fork button to create your personal fork
-  * Create your feature branch: `git checkout -b new-feature`
-  * Commit your changes: `git commit -am 'Add some feature'`
-  * Push to the branch: `git push origin new-feature`
-  * Create a new pull request
+    * Click the Fork button to create your personal fork
+    * Create your feature branch: `git checkout -b new-feature`
+    * Commit your changes: `git commit -am 'Add some feature'`
+    * Push to the branch: `git push origin new-feature`
+    * Create a new pull request
 * Improve the [documentation](https://github.com/SpunkyBot/spunkybot-docs) (separate repository)
 
 We will then review your contributions and discuss issues with you.
