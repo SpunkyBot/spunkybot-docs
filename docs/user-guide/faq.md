@@ -18,7 +18,6 @@ Stop Spunky Bot and delete the database file `data.sqlite`. Then make sure no on
     `$ sudo rm /opt/spunkybot/data.sqlite`
     `$ sudo /etc/init.d/spunkybot start`
 
-
 If you do not want to delete your database file, you can remove the user from the _Head Admin_ group by editing the database. To do this, you need a tool to connect to your database.
 
 ## Why doesn't Spunky Bot respond to my commands?
