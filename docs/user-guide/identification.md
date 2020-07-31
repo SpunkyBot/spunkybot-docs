@@ -1,4 +1,4 @@
-# Player identification in commands
+# Player Identification in commands
 
 Commands that accept player names can use different types of input.
 

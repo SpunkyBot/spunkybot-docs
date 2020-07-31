@@ -1,4 +1,4 @@
-# Duration syntax
+# Duration Syntax
 
 Many commands have to express the duration. For this purpose, Spunky Bot provides a practical syntax with a suffix for expressing different duration units:
 
