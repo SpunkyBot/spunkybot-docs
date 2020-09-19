@@ -28,8 +28,15 @@
 .wy-nav-content-wrap { background: rgba(0,0,0,0.05); }
 }
 
+/* Fix code color - https://github.com/mkdocs/mkdocs/issues/2027 */
 /* Code background color */
-pre code, pre code.hljs, .codehilite { background: #f6f5fe; }
+.rst-content pre code, pre code.hljs, .codehilite {
+    color: #000;
+    background: #f6f5fe;
+}
+.rst-content code {
+    color: #E74C3C;
+}
 
 /* Search icon */
 form .search_input {
