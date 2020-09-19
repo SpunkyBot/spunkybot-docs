@@ -1,6 +1,7 @@
 # Documentation of Spunky Bot
 
 [![Docs](https://img.shields.io/badge/docs-latest-brightgreen.svg)](https://docs.spunkybot.de)
+[![Build](https://img.shields.io/github/workflow/status/SpunkyBot/spunkybot-docs/Build)](https://github.com/SpunkyBot/spunkybot-docs/actions)
 
 This repository is the documentation counterpart of the [Spunky Bot](https://github.com/SpunkyBot/spunkybot) repository.
 
