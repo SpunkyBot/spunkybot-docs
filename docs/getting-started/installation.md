@@ -49,9 +49,9 @@ $ sudo apt-get install spunkybot
 It is also possible to install Spunky Bot via our Ubuntu PPA (Personal Package Archive):
 
 ```bash
-sudo add-apt-repository ppa:alexanderkress/spunkybot
-sudo apt-get update
-sudo apt-get install spunkybot
+$ sudo add-apt-repository ppa:alexanderkress/spunkybot
+$ sudo apt-get update
+$ sudo apt-get install spunkybot
 ```
 
 That’s it!
