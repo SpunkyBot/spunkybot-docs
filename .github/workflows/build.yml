@@ -9,10 +9,10 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v2.3.2
 
       - name: Setup Python 3.8
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v2.1.2
         with:
           python-version: 3.8
 
@@ -27,6 +27,6 @@ jobs:
           mkdocs build --clean --strict
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v2.1.4
         with:
           path: site
