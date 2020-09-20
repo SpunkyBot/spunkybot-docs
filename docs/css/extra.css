@@ -32,11 +32,11 @@
 /* Code background color */
 .rst-content pre code, pre code.hljs, .codehilite {
     color: #000;
-    background: #f6f5fe;
+    background: #f8f8f8;
 }
-.rst-content code {
-    color: #E74C3C;
-}
+.rst-content code { color: #E74C3C; }
+
+.hljs { padding: 12px 12px; }
 
 /* Search icon */
 form .search_input {
