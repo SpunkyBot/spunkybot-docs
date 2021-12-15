@@ -27,6 +27,6 @@ jobs:
           mkdocs build --clean --strict
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v2.3.0
+        uses: actions/upload-artifact@v2.3.1
         with:
           path: site
