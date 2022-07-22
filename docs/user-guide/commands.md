@@ -42,6 +42,7 @@ Also check the full list of [commands](https://spunkybot.de/docs/commands) with 
 * `!admintest` - display current admin status
 * `!country <name>` - get the country of a player
 * `!lastmaps` - list the last played maps
+* `!lastvote` - display information about the last called vote
 * `!leveltest [<name>]` - get the admin level for a given player or myself
 * `!list` - list all connected players
 * `!locate <name>` - display geolocation info of a player
@@ -51,6 +52,8 @@ Also check the full list of [commands](https://spunkybot.de/docs/commands) with 
 * `!seen <name>` - display when a player was last seen
 * `!shuffleteams` - shuffle the teams
 * `!spec` - move yourself to spectator
+* `!startdemo <name>` - start recording of serverside demo
+* `!stopdemo <name>` - stop recording of serverside demo
 * `!warn <name> [<reason>]` - warn player
 * `!warninfo <name>` - display how many warnings a player has
 * `!warnremove <name>` - remove a player's last warning
@@ -100,17 +103,18 @@ Also check the full list of [commands](https://spunkybot.de/docs/commands) with 
 
 ## Senior Admin
 
-* `!addbots` - add bots to the game
+* `!addbots` - add up to 4 bots to the game
 * `!banall <pattern> [<reason>]` - ban all players matching pattern
 * `!banlist` - display the last active 10 bans
 * `!bots <on/off>` - enables or disables bot support
 * `!clear` - clear all player warnings
 * `!cyclemap` - cycle to the next map
 * `!exec <filename>` - execute given config file
-* `!gear <default/all/knife/pistol/shotgun/sniper>` - set allowed weapons
+* `!gear <default/all/knife/pistol/shotgun/sniper/magnum/mac>` - set allowed weapons
 * `!instagib <on/off>` - set Instagib mode
 * `!kickall <pattern> [<reason>]` - kick all players matching pattern
 * `!kill <name>` - kill a player
+* `!lastadmin` - display the last disconnected admin
 * `!lastbans` - list the last 4 bans
 * `!lookup <name>` - search for a player in the database
 * `!makereg <name>` - make a player a regular (Level 2) user
