@@ -139,6 +139,7 @@ Also check the full list of [commands](https://spunkybot.de/docs/commands) with 
 * `!bomb` - change gametype to Bomb
 * `!ctf` - change gametype to Capture the Flag
 * `!ffa` - change gametype to Free For All
+* `!gametype <bomb/ctf/ffa/tdm/ts>` - set game type
 * `!gungame` - change gametype to Gun Game
 * `!jump` - change gametype to Jump
 * `!lms` - change gametype to Last Man Standing
