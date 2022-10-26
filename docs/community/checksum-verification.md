@@ -10,10 +10,10 @@ For example:
 
 ```bash
 # Download the package and signature files.
-wget https://spunkybot.de/download/spunkybot-1.12.0.tar.gz
-wget https://spunkybot.de/download/spunkybot-1.12.0.tar.gz.asc
-wget https://spunkybot.de/download/1.12.0/SHASUMS
-wget https://spunkybot.de/download/1.12.0/SHASUMS.sig
+wget https://spunkybot.de/download/spunkybot-1.14.0.tar.gz
+wget https://spunkybot.de/download/spunkybot-1.14.0.tar.gz.asc
+wget https://spunkybot.de/download/1.14.0/SHASUMS
+wget https://spunkybot.de/download/1.14.0/SHASUMS.sig
 
 # Verify the SHASUMS matches the package file.
 shasum -a 256 -c SHASUMS
@@ -21,6 +21,6 @@ shasum -a 256 -c SHASUMS
 # Import our public key - one-time step.
 $ wget -qO- http://www.alexanderkress.de/pgp_github_key.asc | gpg --import
 # Verify the signature files.
-$ gpg --verify spunkybot-1.12.0.tar.gz.asc spunkybot-1.12.0.tar.gz
+$ gpg --verify spunkybot-1.14.0.tar.gz.asc spunkybot-1.14.0.tar.gz
 $ gpg --verify SHASUMS.sig SHASUMS
 ```
