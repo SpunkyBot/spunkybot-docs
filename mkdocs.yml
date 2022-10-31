@@ -2,10 +2,10 @@
 site_name: Spunky Bot
 site_url: https://docs.spunkybot.de
 site_description: Multi-platform administration and RCON tool for Urban Terror
-site_author: Alexander Kress
+site_author: Spunky Bot contributors
 
 # Copyright
-copyright: 'Copyright &copy; 2022 Alexander Kress'
+copyright: 'Copyright &copy; 2022 Spunky Bot contributors'
 
 # Repository
 repo_url: https://github.com/SpunkyBot/spunkybot-docs
